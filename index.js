@@ -30,7 +30,7 @@ mongoose
   .connect(url, { useNewUrlParser: true, useUnifiedTopology: true }) //pending
   .then(() =>
     app.listen(port, () => {
-      console.log(`Server is up and running on port ${port}`);
+      console.log(`Server is up & running on port ${port}`);
     })
   ) //fulfilled
   .catch((err) => console.log("Error -->", err.message)); //rejected
